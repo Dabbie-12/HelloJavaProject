@@ -38,9 +38,9 @@ public class gettinginputnumbers {
         int age = 0;
 
         try {
-            System.out.print("enter your name");
+            System.out.print("enter your name: ");
             name = dataIn.readLine();
-            System.out.print("ebter your too: ");
+            System.out.print("enter your too: ");
             age = dataIn.read();
         } catch (IOException ex){
             System.out.println(ex.getMessage());
